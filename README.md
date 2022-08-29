@@ -6,7 +6,7 @@ pip3 install django
 pip3 install mysqlclient
 
 #all apt commands:
-```shell
+```/bin/bash
 sudo apt install libmariadb-dev
 ```
 #all setup commands:
