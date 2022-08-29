@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-a7qjfo@x$ud@ig*m)8dpe71cohm0^j++k(m&kf!*hhurn!pq38
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 'localhost', '192.168.1.1', '0.0.0.0', '192.168.1.239' ] # 192.168.1.239 is my home server's static ip
 
 LOGIN_REDIRECT_URL =  '/'
 # Application definition
