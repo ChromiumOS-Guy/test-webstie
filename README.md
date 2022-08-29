@@ -2,7 +2,7 @@
 a simple test website with django
 
 # parameters that you need to change
-```pyhton3
+```python3
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
