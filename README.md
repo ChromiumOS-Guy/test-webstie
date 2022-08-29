@@ -1,16 +1,16 @@
 # test-webstie
 a simple test website with django
 
-#all pip commands:
+# all pip commands:
 ```shell
 pip3 install django
 pip3 install mysqlclient
 ```
-#all apt commands:
+# all apt commands:
 ```shell
 sudo apt install libmariadb-dev
 ```
-#all setup commands:
+# all setup commands:
 ```shell
 python3 manage.py makemigrations
 python3 manage.py migrate
