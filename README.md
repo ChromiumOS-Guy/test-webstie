@@ -1,6 +1,9 @@
 # test-webstie
 a simple test website with django
 
+# parameters that you need to change
+
+
 # drop-in copy-paste prep for debian 11
 ```shell
 sudo apt update
