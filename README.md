@@ -18,7 +18,7 @@ DATABASES = {
 }
 ```
 
-# drop-in copy-paste prep for debian 11
+# drop-in copy-paste prep for debian 11 and ubuntu 22.04 LTS
 ```shell
 sudo apt update
 sudo apt install libmariadb-dev
