@@ -1,7 +1,7 @@
 # test-webstie
 a simple test website with django
 
-# drop-in copy-paste prep for debian
+# drop-in copy-paste prep for debian 11
 ```shell
 sudo apt update
 sudo apt install libmariadb-dev
