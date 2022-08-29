@@ -22,9 +22,9 @@ DATABASES = {
 ```shell
 sudo apt update
 sudo apt install libmariadb-dev
+pip3 install -U pip
 pip3 install django
 pip3 install mysqlclient
-pip3 install -U pip
 ```
 # drop in copy-paste run on project direcotry
 ```shell
