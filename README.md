@@ -6,11 +6,11 @@ a simple test website with django
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test_db',
-        'USER': 'root',
-        'PASSWORD': 'password',
-        'HOST': '172.0.0.1',
-        'PORT': '3306'
+        'NAME': 'test_db', # change
+        'USER': 'root', # change
+        'PASSWORD': 'password', # change
+        'HOST': '172.0.0.1', # change
+        'PORT': '3306' # change
         #'OPTIONS':{
         #    'init_command': "SET sql_mode='STRICT_TRANS_TABELS'"
         #}
