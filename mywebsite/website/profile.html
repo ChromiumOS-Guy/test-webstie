@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+  
+{% block title %}Profile{% endblock %}
+{% block content %}
+<h2 align="center">{{ user.username }}'s Profile: </h2>
+    <fieldset>
+    <legend>User Options</legend>
+    <a style="color:greenyellow;" href="/" class="btn btn-danger">Back</a>
+    <a style="color: orange;" href="/changeuserpassword" class="btn btn-danger">Change Password</a>
+    <a style="color: red;" href="/deleteuser" class="btn btn-danger">Delete Profile</a>
+    </fieldset>
+    <br>
+    <form method="POST">
+        {% csrf_token %}
+    Email : <input type="text" placeholder="{{user.email}}" name="email"/>
+    <br>
+    <label for="bio">{{ user.username }}'s bio: </label>
+		<textarea id="bio" placeholder="{{user_bio.bio}}" name="bio"></textarea>
+    <button>Save</button>
+    </form>
+{% endblock %}

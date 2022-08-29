@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+  
+{% block title %}MainPage{% endblock %}
+{% block content %}
+   <h2>Welcome {{ user.username }}!</h2>
+   <fieldset>
+    <legend>User Options</legend>
+    <a style="color: red;" href="/signout" class="btn btn-danger">Logout</a>
+    <a style="color: greenyellow;" href="/profile" class="btn btn-danger">Profile</a>
+  </fieldset>
+  <br>
+  <br>
+  <br>
+  <fieldset>
+    <legend>Links</legend>
+    <a style="color: white;" href="https://github.com/" class="btn btn-danger">Github</a>
+    <a style="color: white;" href="https://www.youtube.com/channel/UCTHzz9TtAc7wY8sAFgyAU_w" class="btn btn-danger">Youtube</a>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Games</legend>
+    <a style="color: orange;" href="/snakegame" class="btn btn-danger">Snake</a>
+    <a style="color: orange;" href="/ponggame" class="btn btn-danger">Pong</a>
+    <a style="color: orange;" href="/2048game" class="btn btn-danger">2048</a>
+  </fieldset>
+{% endblock %}
