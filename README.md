@@ -1,7 +1,7 @@
 # test-webstie
 a simple test website with django
 
-# parameters that you need to change
+# parameters that you need to change at test-webstie/mywebsite/mywebsite/settings.py 
 ```python3
 DATABASES = {
     'default': {
